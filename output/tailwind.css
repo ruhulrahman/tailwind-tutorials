@@ -440,6 +440,17 @@ video {
   display: none;
 }
 
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -621,12 +632,20 @@ video {
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .flex {
   display: flex;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .items-center {
@@ -640,3 +659,8 @@ video {
 .gap-2 {
   gap: 0.5rem;
 }
+
+/* .btn-success {
+        @apply
+       text-black
+    } */
